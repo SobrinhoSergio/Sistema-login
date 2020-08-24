@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: cornflowerblue;
+    background-image: URL(../imagens/amigos-surfando02.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Arial;
+
+}
+a#voltar img{
+    margin-right: 5px;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.04);
+    color: white;
+    outline: none;
+
+}
+
+div#corpo-form{
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+
+div#corpo-form-cad{
+    width: 420px;
+    margin: 40px auto 0px auto;
+}
+
+div#corpo-form h1, div#corpo-form-cad h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: rgb(14, 233, 204);
+    cursor: pointer;
+    
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+  }
