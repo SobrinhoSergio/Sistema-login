@@ -4,15 +4,11 @@
 }
 
 body{
-    background: cornflowerblue;
-    background-image: URL(../imagens/amigos-surfando02.jpg);
+    background-image: URL(../imagens/meu-barquinho.jpg);
     background-size: cover;
     color: white;
     font-family: Arial;
 
-}
-a#voltar img{
-    margin-right: 5px;
 }
 
 input{

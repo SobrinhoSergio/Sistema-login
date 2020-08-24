@@ -9,10 +9,6 @@
 
 <body>
 
-<a id="voltar" href="index.php">
-    <img src="imagens/icons/back.svg" alt="voltar">
-</a>
-
 <div id="corpo-form-cad">
     <h1>Cadastrar</h1>
 
