@@ -13,9 +13,9 @@
     <h1>Entrar</h1>
 
     <form action="processa.php" method="POST">
-        <input type="email" id="" name="" placeholder="Usuário"/>
-        <input type="password" id="" name="" placeholder="Senha"/>
-        <input type="submit" value="ACESSAR" id="" name=""/>
+        <input type="email" name="email" placeholder="Usuário"/>
+        <input type="password" name="senha" placeholder="Senha"/>
+        <input type="submit" value="ACESSAR" name=""/>
         <a href="cadastrar.php">Ainda não é inscrito? <strong>Inscreva-se!</strong></a>
     </form>
 <div>

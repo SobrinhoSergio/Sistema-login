@@ -13,12 +13,12 @@
     <h1>Cadastrar</h1>
 
     <form action="processa.php" method="POST">
-        <input type="text" id="" name="" placeholder="Nome Completo"/>
-        <input type="text" id="" name="" placeholder="Telefone"/>
-        <input type="email" id="" name="" placeholder="Usuário"/>
-        <input type="password" id="" name="" placeholder="Senha"/>
-        <input type="password" id="" name="" placeholder="Confirmar Senha"/>
-        <input type="submit" value="CADASTRAR" id="" name=""/>
+        <input type="text" name="nome" placeholder="Nome Completo" maxlength="30"/>
+        <input type="text" name="telefone" placeholder="Telefone" maxlength="30"/>
+        <input type="email" name="email" placeholder="Usuário" maxlength="40"/>
+        <input type="password" name="senha" placeholder="Senha" maxlength="15"/>
+        <input type="password" name="conf_senha" placeholder="Confirmar Senha"/>
+        <input type="submit" value="CADASTRAR" name="" maxlength="15"/>
     </form>
 <div>
 </body>

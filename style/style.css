@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: URL(../imagens/meu-barquinho.jpg);
+    background-image: URL(../imagem/meu-barquinho.jpg);
     background-size: cover;
     color: white;
     font-family: Arial;
