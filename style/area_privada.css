@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #10688E;
+    color: black;
+    font-family: Arial;
+
+}
+
+div#cortes{
+    width: 420px;
+    margin: 150px auto 0px auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+
+}

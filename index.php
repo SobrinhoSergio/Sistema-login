@@ -11,16 +11,17 @@ $u = new Usuarios();
 
 <head>
     <meta charset="utf-8">
-    <title>Sistema de Login</title>
+    <title>Barbearia El Macho </title>
     <link rel="stylesheet" href="style/main.css">
+    <link rel="shortcut icon" href="imagens/icon/faicon.jpg">
 </head>
 
 <body>
 
 <div id="corpo-form">
-    <h1>Entrar</h1>
+    <h1>Barbearia El Macho</h1>
 
-    <form <?php //action="processa.php" ?> method="POST">
+    <form method="POST">
         <input type="email" name="email" placeholder="Usuário"/>
         <input type="password" name="senha" placeholder="Senha"/>
         <input type="submit" value="ACESSAR" name=""/>

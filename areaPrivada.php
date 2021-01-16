@@ -17,13 +17,20 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Document</title>
+    <title>Área Restrita</title>
+    <link rel="stylesheet" href="style/area_privada.css">
+    <link rel="shortcut icon" href="imagens/icon/faicon.jpg">
 </head>
 <body>
 
-<h2>Área Restrita aos usuários</h2>
+
+<div id="cortes">
+
+<h1>Confira Nossos Cortes....</h1>
 
 <a href="sair.php">Sair</a>
+
+</div>
 
 </body>
 </html>

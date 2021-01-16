@@ -5,9 +5,8 @@
 }
 
 body{
-    /*background-image: URL(../imagem/meu-barquinho.jpg);
-    /background-size: cover;*/
-    background-color: #000;
+    background-image: URL(../imagens/principal.jpg);
+    background-size: cover;
     color: white;
     font-family: Arial;
 
@@ -38,7 +37,7 @@ div#corpo-form-cad{
     margin: 40px auto 0px auto;
 }
 
-div#corpo-form h1, div#corpo-form-cad h1{
+div#corpo-form h1, div#corpo-form h2, div#corpo-form-cad h1{
     text-align: center;
     padding: 20px;
 }
@@ -55,8 +54,14 @@ a:hover{
 }
 
 input[type=submit]{
-    background-color: rgb(14, 233, 204);
+    background-color: #10688E;
     cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+input[type=submit]:hover{
+    background-color: #1278a3;
     
 }
 
